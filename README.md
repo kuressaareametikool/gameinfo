@@ -1,1 +1,1 @@
-# gameinfo
+Tyhi projekt
