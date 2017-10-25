@@ -1,11 +1,18 @@
-    	/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
-
+.names {
+    display: flex;
+    flex-wrap: wrap;
+}
+.names a {
+    flex: 1;
+    height: 200px;
+    margin: 5px;
+    background: papayawhip;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4px;
+}
+/*
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -58,14 +65,12 @@ a {
     background:transparent;
 }
 
-/* change colours to suit your needs */
 ins {
     background-color:#ff9;
     color:#000;
     text-decoration:none;
 }
 
-/* change colours to suit your needs */
 mark {
     background-color:#ff9;
     color:#000; 
@@ -87,7 +92,6 @@ table {
     border-spacing:0;
 }
 
-/* change border colour to suit your needs */
 hr {
     display:block;
     height:1px;
@@ -102,10 +106,7 @@ input, select {
 }
 
     	
-/*
-MY coding
-*/
-
+// ---
 
  h2.tak17 {
  	text-align: center;
@@ -154,3 +155,4 @@ td:hover {
     background-color: rgba(200, 200, 200,1);
     transition-duration: 1s;
 }
+*/
